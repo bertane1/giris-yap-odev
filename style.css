@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./discord.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #b5bacb;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    border-radius: 5px;
+    background-color: #313338;
+    width: 784px;
+    height: 408px;
+    margin: auto;
+    margin-top: 250px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+a{
+    color: #00a8fc;
+}
+.giris{
+    margin-left: 35px;
+    margin-top: 30px;
+}
+label{
+    display: block;
+    margin-top: 20px;
+}
+.posta,.sifre{
+    background-color: #1e1f22;
+    border-radius: 10px;
+    width: 414px;
+    height: 44px;
+
+}
+img{
+    display: block;
+    width: 200px;
+    height: 20  0px;
+    margin-right: 65px;
+    margin-top: 70px;
+}
+label{
+    font-size: 12px;
+}
+button{
+    margin-top: 20px;
+    background-color: #5865f2;
+    width: 414px;
+    height: 44px;
+    color: #ffffff;
+    border-radius: 10px;
+}
